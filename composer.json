@@ -1,0 +1,22 @@
+{
+    "name": "stillman/crumbs",
+    "description": "Simple yet effective class for creating breadcrumbs elements",
+    "keywords": ["crumbs", "breadcrumbs"],
+    "type": "package",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Dmitry Stillman",
+            "email": "dmitry.stillman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Stillman\\Crumbs\\": "src/"
+        }
+    }
+}
